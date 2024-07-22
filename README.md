@@ -20,33 +20,35 @@ Este documento explica o processo de fazer um fork de um repositório, fazer alt
 
    ```bash
    git clone https://github.com/caio-GPT/repository-name.git
-
+   ```
 
 2. **Navegar até o Diretório do Repositório**:
   ```bash 
   cd repository-name
+   ```
 
 3. ## Fazendo Alterações:
     3.1. Criar uma Nova Branch:
         É uma boa prática criar uma nova branch para as alterações.
 ```bash
 git checkout -b nome-da-branch
+```
 
     3.2. Editar os Arquivos:
 
-        Abra o repositório no seu editor de código preferido e faça as alterações necessárias.
+        Abri o repositório no editor de código e fiz as alterações necessárias.
 
     3.3. Fazer Commit das Alterações:
 ```bash
 git add .
 git commit -m "Descrição das alterações"
-
+```
 
 4. ## Enviando as Alterações para o GitHub
     4.1. Enviar as Alterações:
           ```bash
           git push origin nome-da-branch
-
+            ```
 5. Criando um Pull Request
     5.1. Fui para o Repositório Forkado no GitHub:
 
@@ -82,6 +84,7 @@ Loguei na conta principal, **caio-videmelo**, e naveguei até o Repositório Pri
           Após o merge, exclui a branch para manter o repositório organizado.
             ```bash
             git push origin --delete nome-da-branch
+            ```
 
 7. Sincronizando o Fork
 
@@ -90,13 +93,15 @@ Loguei na conta principal, **caio-videmelo**, e naveguei até o Repositório Pri
     7.2. Buscar as Últimas Alterações:
           ```bash
           git fetch upstream
+         ```
 
-    7.3. Fazer Merge das Alterações:
+   7.3. Fazer Merge das Alterações:
           ```bash
           git checkout main
           git merge upstream/main
           git push origin main
-
+         ```
+   
 ## Conclusão
 
 Consegui fazer um fork, realizar alterações (commits), criar um pull request e fazer o merge das alterações no repositório principal. Este fluxo de trabalho garantiu um processo de colaboração quee mantém o repositório organizado.
