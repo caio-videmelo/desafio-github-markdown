@@ -1,6 +1,4 @@
 # desafio-github-markdown
-Desafio dio.me Github-Markdown
-# desafio-github-markdown
 
 Desafio dio.me Github-Markdown
 
