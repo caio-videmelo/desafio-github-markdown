@@ -28,74 +28,77 @@ Este documento explica o processo de fazer um fork de um repositório, fazer alt
    ```
 
 3. ## Fazendo Alterações:
-    3.1. Criar uma Nova Branch:
+    3.1. **Criar uma Nova Branch**:
         É uma boa prática criar uma nova branch para as alterações.
-```bash
-git checkout -b nome-da-branch
-```
+            ```bash
+      git checkout -b nome-da-branch
+         ```
 
-    3.2. Editar os Arquivos:
+    3.2. **Editar os Arquivos**:
 
         Abri o repositório no editor de código e fiz as alterações necessárias.
 
-    3.3. Fazer Commit das Alterações:
+    3.3. **Fazer Commit das Alterações**:
 ```bash
 git add .
 git commit -m "Descrição das alterações"
 ```
 
 4. ## Enviando as Alterações para o GitHub
-    4.1. Enviar as Alterações:
+
+   4.1. **Enviar as Alterações**:
           ```bash
           git push origin nome-da-branch
             ```
-5. Criando um Pull Request
-    5.1. Fui para o Repositório Forkado no GitHub:
+5. ## Criando um Pull Request
+
+   5.1. **Fui para o Repositório Forkado no GitHub**:
 
           Naveguei até https://github.com/caio-GPT/desafio-github-markdown.
 
-    5.2. Criar Pull Request:
+    5.2. **Criar Pull Request**:
 
           Clique no botão "Compare & pull request".
 
-    5.3. Adicionei um título descritivo e uma descrição para o seu pull request explicando as alterações feitas.
+    5.3. **Adicionei um título descritivo e uma descrição para o seu pull request explicando as alterações feitas.**
 
           Enviar o Pull Request:
 
-    5.4. Cliquei no botão "Create pull request".
+    5.4. **Cliquei no botão "Create pull request".**
 
-6. Fazendo Merge do Pull Request
+6. ## Fazendo Merge do Pull Request
+
 Loguei na conta principal, **caio-videmelo**, e naveguei até o Repositório Principal: https://github.com/caio-videmelo/desafio-github-markdown.
 
-    6.1. Revisar o Pull Request:
+   6.1. **Revisar o Pull Request**:
 
           Cliquei na aba "Pull requests".
 
           Selecionei o pull request criado por caio-GPT.
 
-    6.2. Fazer Merge do Pull Request:
+   6.2. **Fazer Merge do Pull Request**:
 
           Revisei as alterações e clique no botão "Merge pull request".
 
           Confirmei clicando em "Confirm merge".
 
-    6.3. Excluir a Branch (Opcional):
+   6.3. **Excluir a Branch (Opcional)**:
 
           Após o merge, exclui a branch para manter o repositório organizado.
             ```bash
             git push origin --delete nome-da-branch
             ```
 
-7. Sincronizando o Fork
+7. ## Sincronizando o Fork
 
-    7.1. Naveguei até https://github.com/caio-GPT/desafio-github-markdown.
+    7.1. **Naveguei até https://github.com/caio-GPT/desafio-github-markdown.**
 
-    7.2. Buscar as Últimas Alterações:
+    7.2. **Buscar as Últimas Alterações**:
           ```bash
           git fetch upstream
          ```
 
-   7.3. Fazer Merge das Alterações:
+   7.3. **Fazer Merge das Alterações**:
           ```bash
           git checkout main
           git merge upstream/main
@@ -108,7 +111,7 @@ Consegui fazer um fork, realizar alterações (commits), criar um pull request e
 
 Se você tiver alguma dúvida ou precisar de mais assistência, sinta-se à vontade para entrar em contato!
 
-PrintScreens da realização do desafio:
+**PrintScreens da realização do desafio**:
 
 <img src="https://github.com/user-attachments/assets/ff39129b-c13a-4a74-a0f4-d28942bd5f80" alt="Forking the Repository" width="600"/>
 <img src="https://github.com/user-attachments/assets/8f9abcb9-3aa6-4de5-b8d7-6aaf7e9e92c1" alt="Cloning the Repository" width="600"/>
