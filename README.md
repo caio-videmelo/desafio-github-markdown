@@ -108,6 +108,19 @@ Consegui fazer um fork, realizar alterações (commits), criar um pull request e
 
 Se você tiver alguma dúvida ou precisar de mais assistência, sinta-se à vontade para entrar em contato!
 
+PrintScreens da realização do desafio:
+
+![PrintScreen](https://github.com/user-attachments/assets/ff39129b-c13a-4a74-a0f4-d28942bd5f80){:width="600px"}
+![PrintScreen1](https://github.com/user-attachments/assets/8f9abcb9-3aa6-4de5-b8d7-6aaf7e9e92c1){:width="600px"}
+![PrintScreen2](https://github.com/user-attachments/assets/913d2ecc-39d0-4c79-adde-8ca5d25a6cb9){:width="600px"}
+![PrintScreen3](https://github.com/user-attachments/assets/9f1db144-ecd6-4a81-9b3d-e31cf4b51608){:width="600px"}
+![PrintScreen4](https://github.com/user-attachments/assets/1dd4fd0d-f4df-47d6-b791-b109d7e535b5){:width="600px"}
+![PrintScreen5](https://github.com/user-attachments/assets/5d1676ef-1869-486e-a78c-4e2c7aa10077){:width="600px"}
+![PrintScreen6](https://github.com/user-attachments/assets/5c181ed1-c2a9-4de5-8153-b71b6560c226){:width="600px"}
+![PrintScreen7](https://github.com/user-attachments/assets/5a9098ad-e7f9-47fd-98e0-741a536490cf){:width="600px"}
+![PrintScreen8](https://github.com/user-attachments/assets/0e7ac262-75af-4674-a8dd-423a64b8e952){:width="600px"}
+
+# Resultado Final:
 
 # 👋 Hi, I'm Caio V. I. de Melo (aka @caio-videmelo)
 
