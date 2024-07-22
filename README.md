@@ -12,44 +12,15 @@ Este documento explica o processo de fazer um fork de um repositório, fazer alt
 2. **Fazer Fork do Repositório**:
    - Cliquei no botão "Fork" no canto superior direito da página. Isso criou uma cópia do repositório na conta **caio-GPT** do GitHub.
 
-### 2. Clonando o Fork
-
-1. **Clonar o Repositório**:
-   - Na conta **caio-GPT** naveguei até o repositório forkado, `https://github.com/caio-GPT/desafio-github-markdown`.
-   - Cliquei no botão "Code" e copiei o URL.
-
-   ```bash
-   git clone https://github.com/caio-GPT/repository-name.git
-   ```
-
-2. **Navegar até o Diretório do Repositório**:
-  ```bash 
-  cd repository-name
-   ```
-
 3. ## Fazendo Alterações:
-    3.1. **Criar uma Nova Branch**:
-        É uma boa prática criar uma nova branch para as alterações.
-            ```bash
-      git checkout -b nome-da-branch
-         ```
+    3.1. **Editar os Arquivos**:
 
-    3.2. **Editar os Arquivos**:
+        Abri o repositório no GitHub ao clicar no botão "Edit" e fiz as alterações necessárias.
 
-        Abri o repositório no editor de código e fiz as alterações necessárias.
+    3.2. **Fazer Commit das Alterações**:
 
-    3.3. **Fazer Commit das Alterações**:
-```bash
-git add .
-git commit -m "Descrição das alterações"
-```
+      Ao concluir as alterações, cliquei no botão "Commit".
 
-4. ## Enviando as Alterações para o GitHub
-
-   4.1. **Enviar as Alterações**:
-          ```bash
-          git push origin nome-da-branch
-            ```
 5. ## Criando um Pull Request
 
    5.1. **Fui para o Repositório Forkado no GitHub**:
@@ -58,11 +29,11 @@ git commit -m "Descrição das alterações"
 
     5.2. **Criar Pull Request**:
 
-          Clique no botão "Compare & pull request".
+          Cliquei no botão "Compare & pull request".
 
-    5.3. **Adicionei um título descritivo e uma descrição para o seu pull request explicando as alterações feitas.**
+    5.3. **Adicionei um título e uma descrição para o pull request.**
 
-          Enviar o Pull Request:
+          Cliquei em enviar o Pull Request:
 
     5.4. **Cliquei no botão "Create pull request".**
 
@@ -78,33 +49,10 @@ Loguei na conta principal, **caio-videmelo**, e naveguei até o Repositório Pri
 
    6.2. **Fazer Merge do Pull Request**:
 
-          Revisei as alterações e clique no botão "Merge pull request".
+          Revisei as alterações e cliquei no botão "Merge pull request".
 
           Confirmei clicando em "Confirm merge".
-
-   6.3. **Excluir a Branch (Opcional)**:
-
-          Após o merge, exclui a branch para manter o repositório organizado.
-            ```bash
-            git push origin --delete nome-da-branch
-            ```
-
-7. ## Sincronizando o Fork
-
-    7.1. **Naveguei até https://github.com/caio-GPT/desafio-github-markdown.**
-
-    7.2. **Buscar as Últimas Alterações**:
-          ```bash
-          git fetch upstream
-         ```
-
-   7.3. **Fazer Merge das Alterações**:
-          ```bash
-          git checkout main
-          git merge upstream/main
-          git push origin main
-         ```
-   
+ 
 ## Conclusão
 
 Consegui fazer um fork, realizar alterações (commits), criar um pull request e fazer o merge das alterações no repositório principal. Este fluxo de trabalho garantiu um processo de colaboração quee mantém o repositório organizado.
@@ -113,15 +61,15 @@ Se você tiver alguma dúvida ou precisar de mais assistência, sinta-se à vont
 
 **PrintScreens da realização do desafio**:
 
-<img src="https://github.com/user-attachments/assets/ff39129b-c13a-4a74-a0f4-d28942bd5f80" alt="Forking the Repository" width="600"/>
-<img src="https://github.com/user-attachments/assets/8f9abcb9-3aa6-4de5-b8d7-6aaf7e9e92c1" alt="Cloning the Repository" width="600"/>
-<img src="https://github.com/user-attachments/assets/913d2ecc-39d0-4c79-adde-8ca5d25a6cb9" alt="Making Changes" width="600"/>
-<img src="https://github.com/user-attachments/assets/9f1db144-ecd6-4a81-9b3d-e31cf4b51608" alt="Pushing Changes" width="600"/>
-<img src="https://github.com/user-attachments/assets/1dd4fd0d-f4df-47d6-b791-b109d7e535b5" alt="Creating Pull Request" width="600"/>
-<img src="https://github.com/user-attachments/assets/5d1676ef-1869-486e-a78c-4e2c7aa10077" alt="Merging Pull Request" width="600"/>
-<img src="https://github.com/user-attachments/assets/5c181ed1-c2a9-4de5-8153-b71b6560c226" alt="Syncing Fork" width="600"/>
-<img src="https://github.com/user-attachments/assets/0e7ac262-75af-4674-a8dd-423a64b8e952" alt="Verifying Changes" width="600"/>
-<img src="https://github.com/user-attachments/assets/5a9098ad-e7f9-47fd-98e0-741a536490cf" alt="GitHub Stats" width="600"/>
+<img src="https://github.com/user-attachments/assets/ff39129b-c13a-4a74-a0f4-d28942bd5f80" alt="PrintScreen" width="600"/>
+<img src="https://github.com/user-attachments/assets/8f9abcb9-3aa6-4de5-b8d7-6aaf7e9e92c1" alt="PrintScreen1" width="600"/>
+<img src="https://github.com/user-attachments/assets/913d2ecc-39d0-4c79-adde-8ca5d25a6cb9" alt="PrintScreen2" width="600"/>
+<img src="https://github.com/user-attachments/assets/9f1db144-ecd6-4a81-9b3d-e31cf4b51608" alt="PrintScreen3" width="600"/>
+<img src="https://github.com/user-attachments/assets/1dd4fd0d-f4df-47d6-b791-b109d7e535b5" alt="PrintScreen4" width="600"/>
+<img src="https://github.com/user-attachments/assets/5d1676ef-1869-486e-a78c-4e2c7aa10077" alt="PrintScreen5" width="600"/>
+<img src="https://github.com/user-attachments/assets/5c181ed1-c2a9-4de5-8153-b71b6560c226" alt="PrintScreen6" width="600"/>
+<img src="https://github.com/user-attachments/assets/0e7ac262-75af-4674-a8dd-423a64b8e952" alt="PrintScreen7" width="600"/>
+<img src="https://github.com/user-attachments/assets/5a9098ad-e7f9-47fd-98e0-741a536490cf" alt="PrintScreen8" width="600"/>
 
 # Resultado Final:
 
