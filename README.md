@@ -17,17 +17,16 @@ Meta de aquisição de experiência em:
 
 | Cursos |  | Certificados |
 
-| Formação em Lógica de Programação | | [Certificado1](https://hermes.dio.me/certificates/cover/IKZWS7UF.jpg) |
+# Tabela de Cursos e Certificados
 
-| Aplicações Práticas da Inteligência Artificial |  | [Certificado2](https://hermes.dio.me/certificates/cover/PSAOKYWW.jpg) |
-
-| Como Utilizar o ChatGPT como Copilotot de Programação | | [Certificado3](https://hermes.dio.me/certificates/cover/VTDQ3DSN.jpg) |
-
-| Como Utilizar o ChatGPT para Refatorar Códigos | | [Certificado4](https://hermes.dio.me/certificates/cover/Q6UFDRJT.jpg) |
-
-| ChatGPT - O essencial | | [Certificado5](https://hermes.dio.me/certificates/cover/X7MNPJHM.jpg) |
-
-| Promps Assertivos para ChatGPT | | [Certificado6](https://hermes.dio.me/certificates/cover/JR70LQWJ.jpg) |
+| Cursos                                                          | Certificados                                              |
+|-----------------------------------------------------------------|-----------------------------------------------------------|
+| Formação em Lógica de Programação                               | [Certificado1](https://hermes.dio.me/certificates/cover/IKZWS7UF.jpg) |
+| Aplicações Práticas da Inteligência Artificial                  | [Certificado2](https://hermes.dio.me/certificates/cover/PSAOKYWW.jpg) |
+| Como Utilizar o ChatGPT como Copiloto de Programação            | [Certificado3](https://hermes.dio.me/certificates/cover/VTDQ3DSN.jpg) |
+| Como Utilizar o ChatGPT para Refatorar Códigos                  | [Certificado4](https://hermes.dio.me/certificates/cover/Q6UFDRJT.jpg) |
+| ChatGPT - O essencial                                           | [Certificado5](https://hermes.dio.me/certificates/cover/X7MNPJHM.jpg) |
+| Promps Assertivos para ChatGPT                                  | [Certificado6](https://hermes.dio.me/certificates/cover/JR70LQWJ.jpg) |
 
 
 ![caio-videmelo's GitHub stats](https://github-readme-stats.vercel.app/api?username=caio-videmelo&show_icons=true&theme=tokyonight)
