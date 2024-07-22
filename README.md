@@ -19,7 +19,7 @@ Este documento explica o processo de fazer um fork de um repositório, fazer alt
 
     3.2. **Fazer Commit das Alterações**:
 
-      Ao concluir as alterações, cliquei no botão "Commit".
+      Ao concluir as alterações, cliquei no botão "Commit changes...".
 
 5. ## Criando um Pull Request
 
